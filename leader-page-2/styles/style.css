@@ -1,7 +1,7 @@
 /* common stylrs */
 body {
     font-family: "Poppins", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
     background-color: #F3F1FF;
 }
@@ -44,4 +44,29 @@ hr {
 .player-name {
     margin-left: 16px;
     font-size: 18px;
+}
+
+/* -------------------blog styles ----------- */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+
+}
+
+.blog {
+    display: flex;
+}
+
+.thumbnail img {
+    width: 177px;
+    padding-right: 16px;
+}
+
+.blog-title {
+    font-size: 18px;
+}
+
+.blog-author {
+    color: #9F9F9F;
 }
