@@ -1,0 +1,47 @@
+/* common stylrs */
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #F3F1FF;
+}
+
+.container {
+    width: 870px;
+    height: 679px;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
+}
+
+/* plyers styles */
+.section-title {
+    color: #562EFF;
+    font-size: 24px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.player {
+    display: flex;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player-name {
+    margin-left: 16px;
+    font-size: 18px;
+}
