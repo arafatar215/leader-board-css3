@@ -70,3 +70,36 @@ hr {
 .blog-author {
     color: #9F9F9F;
 }
+
+/* ------------------- lates courses -------------------- */
+.course-banner img {
+    height: 104px;
+    width: 224px;
+}
+
+.course-author {
+    color: #ED6B4F;
+}
+
+.course-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-solid {
+    color: #FFC014;
+}
+
+.filled {
+    color: #AEAEAE;
+}
+
+.course-duration {
+    background-color: #FFE4E8;
+    width: 94px;
+    height: 29px;
+    border-radius: 25px;
+    text-align: center;
+    color: #FF4A60;
+}
