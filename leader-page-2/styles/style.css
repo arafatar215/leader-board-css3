@@ -1,4 +1,5 @@
-/* common stylrs */
+/* ----------common stylrs---------- */
+
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -25,7 +26,8 @@ hr {
     margin-bottom: 30px;
 }
 
-/* plyers styles */
+/* -------------plyers styles------------ */
+
 .section-title {
     color: #562EFF;
     font-size: 24px;
@@ -52,6 +54,7 @@ hr {
 }
 
 /* -------------------blog styles ----------- */
+
 .blogs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -77,6 +80,7 @@ hr {
 }
 
 /* ------------------- lates courses -------------------- */
+
 .courses {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -125,6 +129,7 @@ hr {
 
 /* ---------------media Queries------------  */
 /* ---------Mobile Devices-----------  */
+
 @media only screen and (max-width: 688px) {
     .container {
         width: 100%;
@@ -147,6 +152,7 @@ hr {
 }
 
 /* ------------tablet devices-----------  */
+
 @media only screen and (min-width: 688px) and (max-width: 1366px) {
     .container {
         width: 100%;
